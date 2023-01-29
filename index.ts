@@ -41,6 +41,14 @@ print()
     
         return obj;
     }
-    isSeniorState()
+    
+    function course(number: any, courseNum: number) {
+
+        number.courseNum = courseNum;
+    
+        return number;
+    }
+    
+    console.log(course(school[3], 5));
 
     export{}
